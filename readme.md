@@ -37,9 +37,8 @@ Before running the tests, ensure that the following prerequisites are met:
 
 2. Run Headless Test:
 
-   - open Terminal and Type: npx cypress run TEST SCRIPT FILE NAME WITH EXTENSION HERE
-
-        example: npx cypress run validade-shopping-cart.cy.js
+   - open Terminal and Type: 
+        npx cypress run validade-shopping-cart.cy.js
 
 
 
