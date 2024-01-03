@@ -4,7 +4,7 @@
 Before running the tests, ensure that the following prerequisites are met:
 
 - Install [Node.js](https://nodejs.org/) installed on your machine
-- Install [npm](https://www.npmjs.com/) (Node Package Manager) installed
+- Install [npm](https://www.npmjs.com/) (Node Package Manager)
 
 - Install [Visual Studio Code](https://code.visualstudio.com/download) or another Code IDE
 - Install [Git](https://git-scm.com/downloads)
