@@ -1,22 +1,51 @@
 
-# 📋 Setup
-- Install [Node.js] > (https://nodejs.org/)
-- Install some IDE, for example [Visual Studio Code] > (https://code.visualstudio.com/download)
-- Install [Git](https://git-scm.com/downloads) (caso queira trabalhar com projeto em sua máquina) 
+# 📋 Prerequisites
 
-### Install Cypress
+Before running the tests, ensure that the following prerequisites are met:
+
+- Install [Node.js](https://nodejs.org/) installed on your machine
+- Install [npm](https://www.npmjs.com/) (Node Package Manager) installed
+
+- Install [Visual Studio Code](https://code.visualstudio.com/download) or another Code IDE
+- Install [Git](https://git-scm.com/downloads)
+
+## ⚙️ Setup
+
+1. Clone this repository to your local machine and open path:
+
+   > open Terminal and Type: git clone https://github.com/yumaruy/saucedemo-cypress-main.git
 
 
-    npm install cypress
+   > Type on terminal: cd cypress-saucedemo-automation
 
-### Open Cypress Dashboard
-    npx cypress open
+2. Install Cypress:
+
+   > open Terminal and Type: npm install cypress --save-dev
+   
+
+### 🎢 Run Tests
+
+1. Open Cypress Dashboard:
+
+   > open Terminal and Type: npx cypress open
+
+   > choose a E2E Testing and Select some script
+
+2. Run Headless Test:
+
+   > open Terminal and Type: npx cypress run TEST SCRIPT HERE
+
+        example: npx cypress run validade-shopping-cart.cy.js
 
 
 
-#### Defects
 
- ; The platform is not allowing you to change the number of items in the cart because the component used to demonstrate the number of products is a Tooltip
- ; You can checkout without any items in your cart
- ; In the Sauce Labs Backpack item, a function is displayed as a string in the product description
- ; The last item in the list has a function in its name "Test.allTheThings() T-Shirt (Red)"
+#### ⛔ Defects
+
+    1 - The platform is not allowing you to change the number of items in the cart because the component used to demonstrate the number of products is a Tooltip
+
+    2 -  You can checkout without any items in your cart
+
+    3 -  In the Sauce Labs Backpack item, a function is displayed as a string in the product description
+
+    4 - The last item in the list has a function in its name "Test.allTheThings() T-Shirt (Red)"
