@@ -14,7 +14,7 @@ Before running the tests, ensure that the following prerequisites are met:
 1. Clone this repository to your local machine and open path:
 
    > open Terminal and Type: 
-        git clone https://github.com/yumaruy/saucedemo-cypress-main.git
+        (git clone https://github.com/yumaruy/saucedemo-cypress-main.git)
 
 
    > Type on terminal: 
@@ -30,13 +30,14 @@ Before running the tests, ensure that the following prerequisites are met:
 
 1. Open Cypress Dashboard:
 
-   > open Terminal and Type: npx cypress open
+   > open Terminal and Type:   
+        npx cypress open
 
    > choose a E2E Testing and Select some script
 
 2. Run Headless Test:
 
-   > open Terminal and Type: npx cypress run TEST SCRIPT HERE
+   > open Terminal and Type: npx cypress run TEST SCRIPT FILE NAME WITH EXTENSION HERE
 
         example: npx cypress run validade-shopping-cart.cy.js
 
