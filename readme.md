@@ -1,51 +1,22 @@
 
-# Cypress Project Structure
+# 📋 Setup
+- Install [Node.js] > (https://nodejs.org/)
+- Install some IDE, for example [Visual Studio Code] > (https://code.visualstudio.com/download)
+- Install [Git](https://git-scm.com/downloads) (caso queira trabalhar com projeto em sua máquina) 
 
-Este projeto utiliza uma estrutura organizada por funcionalidade para gerenciar os testes e comandos relacionados. Abaixo está a organização geral do projeto:
-
-    cypress
-    |-- e2e
-    │   ├── cadastro
-    │   │   ├── cadastro.cy.js
-    |-- fixtures
-    │   │   ├── exemples.json
-    |-- support
-    │   ├── cadastro
-    │   │   ├── cadastroCommands.js
-    │   │   ├── cadastroAssertions.js
-    │   ├── login
-    │   │   ├── loginCommands.js
-    │   │   ├── loginAssertions.js
-    |-- cypress.config.js
-    |-- .gitignore
-    |-- package.json
-    |-- readme.md
+### Install Cypress
 
 
-## 📋 Pré-Requisitos
-- Instalar o [Node.js](https://nodejs.org/)
-- Instalar uma IDE, como o [Visual Studio Code](https://code.visualstudio.com/download)
-- Instalar o [Git](https://git-scm.com/downloads) (caso queira trabalhar com projeto em sua máquina) 
+    npm install cypress
 
-## ⚙️ Configurando o ambiente
-
-### Iniciando um projeto node
-Abra o terminal no VSCode (utilize o CTRL + J) e digite o seguinte comando:
-
-    npm init -y
-
-### Instalando o cypress
-
-Para instalar uma versão mais recente do cypress: 
-
-    npm install cypress --save-dev
-
-Para instalar uma versão específica:
-
-    npm install cypress@3.8.3 --save-dev
-
-#### Para iniciar o Cypress via Dashboard
+### Open Cypress Dashboard
     npx cypress open
 
-#### Executando no modo headless 
-    npx cypress run
+
+
+#### Defects
+
+ ; The platform is not allowing you to change the number of items in the cart because the component used to demonstrate the number of products is a Tooltip
+ ; You can checkout without any items in your cart
+ ; In the Sauce Labs Backpack item, a function is displayed as a string in the product description
+ ; The last item in the list has a function in its name "Test.allTheThings() T-Shirt (Red)"
