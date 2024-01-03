@@ -13,14 +13,17 @@ Before running the tests, ensure that the following prerequisites are met:
 
 1. Clone this repository to your local machine and open path:
 
-   > open Terminal and Type: git clone https://github.com/yumaruy/saucedemo-cypress-main.git
+   > open Terminal and Type: 
+        git clone https://github.com/yumaruy/saucedemo-cypress-main.git
 
 
-   > Type on terminal: cd cypress-saucedemo-automation
+   > Type on terminal: 
+        cd cypress-saucedemo-automation
 
 2. Install Cypress:
 
-   > open Terminal and Type: npm install cypress --save-dev
+   > open Terminal and Type: 
+        npm install cypress --save-dev
    
 
 ### 🎢 Run Tests
