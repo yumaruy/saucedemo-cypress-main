@@ -14,36 +14,36 @@ Before running the tests, ensure that the following prerequisites are met:
 1. Clone this repository to your local machine and open path:
 
    - open Terminal and Type: 
-            git clone https://github.com/yumaruy/saucedemo-cypress-main.git
+                git clone https://github.com/yumaruy/saucedemo-cypress-main.git
 
 
    - Type on terminal: 
-            cd cypress-saucedemo-automation
+                cd cypress-saucedemo-automation
 
 2. Install Cypress:
 
    - open Terminal and Type: 
-            npm install cypress --save-dev
+                npm install cypress --save-dev
    
 
-### 🎢 Run Tests
+## 🎢 Run Tests
 
 1. Open Cypress Dashboard:
 
    - open Terminal and Type:   
-            npx cypress open
+                npx cypress open
 
    - choose a E2E Testing and Select some script
 
 2. Run Headless Test:
 
    - open Terminal and Type: 
-            npx cypress run validade-shopping-cart.cy.js
+                npx cypress run validade-shopping-cart.cy.js
 
 
 
 
-#### ⛔ Defects
+## ⛔ Defects
 
     1 - The platform is not allowing you to change the number of items in the cart because the component used to demonstrate the number of products is a Tooltip
 
