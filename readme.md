@@ -33,7 +33,7 @@ Before running the tests, ensure that the following prerequisites are met:
    - open Terminal and Type:   
                 npx cypress open
 
-   - choose a E2E Testing and Select some script
+   - choose E2E Testing option and Select some test script to run
 
 2. Run Headless Test:
 
